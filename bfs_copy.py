@@ -9,7 +9,8 @@ myGraph = graph = {'A':['B','C','D'],
          'G':['C'],
          'H':['D'], 
          'I':['E'], 
-         'J':['F']}
+         'J':['F'],
+         'K':['A','B']}
 
 def my_bfs(graph, start_node):
     queue = list()
